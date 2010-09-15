@@ -5,7 +5,18 @@ gem 'rails', '3.0.0'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'mysql'
+#Cucumber and Rspec  = Awesome
+gem 'capybara'
+gem 'database_cleaner'
+gem 'cucumber-rails'
+gem 'cucumber'
+gem 'rspec' 
+gem 'rspec-rails'
+gem 'win32-process'
+gem 'spork'
+gem 'launchy'
+
 
 # Use unicorn as the web server
 # gem 'unicorn'
